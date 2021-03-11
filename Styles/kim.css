@@ -1,0 +1,66 @@
+@font-face { font-family: Allura;
+             src: url(fonts/allura.ttf);}
+
+@font-face { font-family: ShadowsIntoLightTwo;
+             src: url(fonts/ShadowsIntoLightTwo.ttf); }
+
+header {
+            background-image:  url("../images/kim.png");
+            height: 204px;
+            width: 100%;
+            background-color: #F8F8DF;
+            background-position: left;
+            background-repeat: no-repeat;
+            position: relative;
+            text-align: center;
+			padding: 10px
+
+ }
+
+
+
+
+main { background-color: #FFFFFF;
+       padding-left: 300px;
+	   padding-right: 300px;
+       color: #0073d1;
+	   font-family: helvetica;
+	   font-size: 20px
+     }
+
+.footer {
+   padding: 5px;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #EEECCC;
+   text-align: center;
+   clear: both;
+}
+
+h1 { font-size: 60px;
+     font-family:Allura;
+	 text-align: center;
+	 color: #7bae58;
+    }
+
+#silt {font-family: ShadowsIntoLightTwo;
+    color: #6CC1C3; }
+
+	/* Sample Color palette */
+
+
+
+.color1, .color2, .color3, .color4  { border:5px solid #fff;
+                                      width:80px;
+									  height:80px;
+									  float: left;
+									  margin-right:10px;
+									  }
+
+.color1 span,.color2 span,.color3 span,.color4 span { background-color:#fff;}
+
+		.color1 { background-color:#F8F8DF; }
+		.color2 { background-color:#0073D1; }
+		.color3 { background-color:#7BAE58; }
+		.color4 { background-color:#EEECCC; }
